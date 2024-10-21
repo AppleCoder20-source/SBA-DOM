@@ -1,6 +1,0 @@
-/* 
-Setup The Array of Objects first and then go from there
-Make a loop 
-Link it to websites
-set up images 
-*/

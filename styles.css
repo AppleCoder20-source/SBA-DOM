@@ -5,8 +5,8 @@
   /* CSS Custom Properties */
   :root {
     --main-bg: #4a4e4d;
-    --top-menu-bg: #0e9aa7;
-    --sub-menu-bg: #3da4ab;
+    --top-menu-bg: #02182B;
+    --bg-2: #0e9aa7;
   }
   
   body {
@@ -73,11 +73,13 @@ body.light-mode {
     color: white;
   }
   
-  button {
+  #button {
     padding: 10px;
     border: none;
-    cursor: pointer;
     background-color: #333;
     color: white;
     border-radius: 5px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 1%;
   }

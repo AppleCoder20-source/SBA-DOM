@@ -1,7 +1,7 @@
 const EstateMenu = [
     { text: "About", href: "/about" },
     { text: "Real Estate", href: "https://www.zillow.com/" },
-    { text: "Contact US", href: "/Contact" }
+    { text: "Sign Up", href: "SignIn.html" }
   ];
   const navMenu = document.getElementById('top-menu');
 
@@ -13,10 +13,10 @@ const EstateMenu = [
     link.style.marginRight = '10px'; // Add some spacing between links
     navMenu.appendChild(link);
   });
-  const button = document.getElementById("button");
+  const button = document.querySelector("button");
   navMenu.classList.add("flex-around") //Make NavMenu become centered 
   
-
+  
   //Light and Dark Mode options
   button.addEventListener("click", () => {
     if (document.body.classList.contains("dark-mode")){

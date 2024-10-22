@@ -7,7 +7,6 @@ const EstateMenu = [
   ];
   const navMenu = document.getElementById('top-menu');
 
-  // Loop through EstateMenu to create and append links
   EstateMenu.forEach(menuItem => {
     const link = document.createElement('a');
     link.href = menuItem.href;
@@ -16,10 +15,9 @@ const EstateMenu = [
     navMenu.appendChild(link);
   });
   const button = document.querySelector("button");
-  navMenu.classList.add("flex-around") //Make NavMenu become centered 
+  navMenu.classList.add("flex-around") 
   
   
-  //Light and Dark Mode options
   button.addEventListener("click", () => {
     if (document.body.classList.contains("dark-mode")){
             // Remove current dark mode and add light mode and vice versa, Let Users see different navbar between 2 modes

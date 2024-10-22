@@ -4,17 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 info.addEventListener("click",() =>{;
-    ShowGeolocation();
+    Screens();
 });
-function ShowGeolocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(
-            (position) => {
-                const { latitude, longitude } = position.coords;
-                info.innerHTML += `<br>Latitude: ${latitude}<br>Longitude: ${longitude}`;
-            },     
-        );
-    } else {
-        info.innerHTML += `<br>Geolocation is not supported by your browser.`;
-    }
+function Screens() {
+    const screenWidth = screen.availWidth;
+    const screenHeight = screen.availHeight;
+    info.innerHTML = `Available Screen Height: ${screenHeight}px and Available Screen Width is ${screenWidth}`;
 }

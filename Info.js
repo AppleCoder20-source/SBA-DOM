@@ -1,12 +1,11 @@
 const info = document.getElementById("Info")
 document.addEventListener("DOMContentLoaded", () => {
-    document.body.classList.add('custom-background1') //referenced MDN docs for this 
+    document.body.classList.add('custom-background1') 
 });
 
 info.addEventListener("click",() =>{;
     ShowGeolocation();
 });
-
 function ShowGeolocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(

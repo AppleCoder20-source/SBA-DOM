@@ -1,5 +1,5 @@
 # DOM Manipulation Project
-Used DOM and Browser Manipulation for project
+Used DOM and Browser Manipulation as well as event handling for this project
 
 ## Description
 

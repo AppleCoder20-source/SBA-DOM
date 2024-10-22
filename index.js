@@ -1,7 +1,9 @@
 const EstateMenu = [
-    { text: "About", href: "/about" },
+    { text: "Home", href: "#" },
     { text: "Real Estate", href: "https://www.zillow.com/" },
-    { text: "Sign Up", href: "SignIn.html" }
+    { text: "Sign Up", href: "SignIn.html" },
+    { text: "Admin Page", href: "Info.html" }
+
   ];
   const navMenu = document.getElementById('top-menu');
 

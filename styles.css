@@ -61,13 +61,11 @@
     color: var(--main-bg);
   }
   
-/* Light mode */
 body.light-mode {
     background-color: white;
     color: black;
   }
   
-  /* Dark mode */
   body.dark-mode {
     background-color: black;
     color: white;
@@ -99,6 +97,13 @@ body.light-mode {
   background-color: #fff; 
   color: #000; 
 }
+.custom-background1 {
+  background-color: #0d1b2a;
+  color: #d21515; 
+  padding: 20px;
+  margin-left:3%;
+  border-radius: 8px;
+}
 
 
 #submit {
@@ -108,4 +113,11 @@ body.light-mode {
   color: white;
   border: none;
   border-radius: 5px;
+}
+#Info {
+  margin-bottom: 12%;
+  padding:50px;
+  width:60%;
+  background-color:#006ce0;
+  color:#000000;
 }

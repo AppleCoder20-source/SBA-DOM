@@ -25,11 +25,11 @@ function handleFormSubmit(event) {
     window.alert(`Success! You have filled out your information ${name}, your email is ${email} and password is ${password}!  We will get back to you shortly!`);
 }
 
-// Event handler function, whenever user submits without filling out form, red border color will appear
+// Event handler function, whenever user submits an empty form, red border color will appear and prompt user to fill in information!
 function handleInputBlur(event) {
     const input = event.target;
 
-    if (!input.value.trim()) {
+    if (input.value.trim() === "") {
         input.style.borderColor = "red"; 
         window.alert(`The ${input.name} field cannot be empty.`); 
     } else  {

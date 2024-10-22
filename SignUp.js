@@ -6,7 +6,7 @@ signUpForm.style.marginTop = "2%";
 document.addEventListener("DOMContentLoaded", handlePageLoad);
 signUpForm.addEventListener("submit", handleFormSubmit);
 
-//Referecned W3 Schools and MDN for blur
+//Referecned  MDN for blur
 const inputs = document.querySelectorAll("#signUpForm input");
 inputs.forEach(input => {
     input.addEventListener("blur", handleInputBlur);
@@ -25,7 +25,7 @@ function handleFormSubmit(event) {
     window.alert(`Success! You have filled out your information ${name}, your email is ${email} and password is ${password}!  We will get back to you shortly!`);
 }
 
-// Event handler function, whenever user submits without filling out form, red color will appear
+// Event handler function, whenever user submits without filling out form, red border color will appear
 function handleInputBlur(event) {
     const input = event.target;
 

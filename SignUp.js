@@ -6,7 +6,7 @@ signUpForm.style.marginTop = "2%";
 document.addEventListener("DOMContentLoaded", handlePageLoad);
 signUpForm.addEventListener("submit", handleFormSubmit);
 
-//Referecned  MDN for blur
+//Referenced  MDN for blur
 const inputs = document.querySelectorAll("#signUpForm input");
 inputs.forEach(input => {
     input.addEventListener("blur", handleInputBlur);
